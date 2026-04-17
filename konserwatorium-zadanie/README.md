@@ -51,5 +51,6 @@ Otwórz: http://localhost:8000
 
 ### Uwagi do przesłanego pliku tickets.csv
 
+- Utworzony na potrzeby testów
 - Jeden `event_id` może mieć wiele zamówień — `totalTickets` to suma `ticket_qty` dla `status=confirmed`,
 - Kolumna `category` jest przypisana do **zamówienia** — ten sam `event_id` może wystąpić w zamówieniach obu kategorii (`kids` i `adults`), dlatego sumy wyników dla poszczególnych kategorii mogą przekraczać łączną liczbę unikalnych eventów,
